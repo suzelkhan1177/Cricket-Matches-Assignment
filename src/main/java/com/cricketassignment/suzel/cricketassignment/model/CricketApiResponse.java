@@ -1,7 +1,10 @@
 package com.cricketassignment.suzel.cricketassignment.model;
 
+import lombok.Data;
+
 import java.util.List;
 
+@Data
 public class CricketApiResponse {
     private List<Match> data;
 
